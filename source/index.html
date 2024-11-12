@@ -1,17 +1,390 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Название проекта</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="preload" href="#" type="font/woff2" as="font">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
-  </head>
-  <body class="page__body">
-    <header class="header">Шапка</header>
-    <main>
-      <h1>Страница для старта</h1>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин комнатных растений</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preload" href="#" type="font/woff2" as="font">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav>
+      <a href="/">
+        <img class="" src="#" width="150" height="35" alt="Два белых листика на зеленом фоне">
+      </a>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Shop</a>
+        </li>
+        <li>
+          <a href="#">Plant Care</a>
+        </li>
+        <li>
+          <a href="#">Blogs</a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="#"><span>search</span></a></li>
+        <li><a href="#"><span>cart</span><span>6</span></a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p>Welcome to GreenShop</p>
+      <h1>Let’s Make a Better Planet</h1>
+      <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+      <a href="#">SHOP NOW</a>
+      <img class="" src="#" width="518" height="518">
+    </section>
+
+    <section class="filter">
+      <h2>Filter</h2>
+      <form action="/" method="get">
+        <fieldset>
+          <legend>Categories</legend>
+          <ul>
+            <li><a href="#">House Plants</a></li>
+            <li><a href="#">Potter Plants</a></li>
+            <li><a href="#">Seeds</a></li>
+            <li><a href="#">Small Plants</a></li>
+            <li><a href="#">Big Plants</a></li>
+            <li><a href="#">Succulents</a></li>
+            <li><a href="#">Trerrariums</a></li>
+            <li><a href="#">Gardening</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Price Range</legend>
+          <p>Price: <span>$39</span> - <span>$1230</span></p>
+          <button type="submit">Filter</button>
+        </fieldset>
+        <fieldset>
+          <legend>Size</legend>
+          <ul>
+            <li><a href="#">Small</a></li>
+            <li><a href="#">Medium</a></li>
+            <li><a href="#">Large</a></li>
+          </ul>
+        </fieldset>
+      </form>
+
+    </section>
+
+    <aside>
+      <h2>Super Sale</h2>
+      <a href="#">
+        <img class="" src="#" width="310" height="470">
+        <span>Super Sale</span>
+      </a>
+    </aside>
+    <section class="catalog">
+      <h2>Catalog</h2>
+      <ul>
+        <li><a href="#">All Plants</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+      <select name="sort" aria-label="Сортировка">
+        <option>Default sorting</option>
+        <option>Price</option>
+        <option>Name</option>
+      </select>
+      <ul>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Barberton Daisy">
+          </a>
+          <h3>Barberton Daisy</h3>
+          <p>$119.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Angel Wing Begonia">
+          </a>
+          <h3>Angel Wing Begonia</h3>
+          <p>$169.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <p>13% OFF</p>
+            <img class="" src="#" width="250" height="250" alt="African Violet">
+          </a>
+          <h3>African Violet</h3>
+          <p>$199.00</p>
+          <p><s>$229.00</s></p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="224" height="286" alt="Beach Spider Lily">
+          </a>
+          <h3>Beach Spider Lily</h3>
+          <p>$129.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Blushing Bromeliad">
+          </a>
+          <h3>Blushing Bromeliad</h3>
+          <p>$139.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Aluminum Plant">
+          </a>
+          <h3>Aluminum Plant</h3>
+          <p>$179.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Bird's Nest Fern">
+          </a>
+          <h3>Bird's Nest Fern</h3>
+          <p>$99.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Broadleaf Lady Palm">
+          </a>
+          <h3>Broadleaf Lady Palm</h3>
+          <p>$59.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="#" tabindex="-1">
+            <img class="" src="#" width="250" height="250" alt="Chinese Evergreen">
+          </a>
+          <h3>Chinese Evergreen</h3>
+          <p>$39.00</p>
+          <div>
+            <a href="#"><span>add to cart</span></a>
+            <a href="#"><span>add to fav</span></a>
+            <a href="#"><span>search</span></a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="pagination">
+        <li class="pagination-item first-page">
+          <a class="pagination-link current" href="#">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">4</a>
+        </li>
+        <li class="pagination-item next-page">
+          <a class="pagination-link" href="#">></a>
+        </li>
+      </ul>
+    </section>
+    <section class="promo">
+      <h2>Promoaction</h2>
+      <ul>
+        <li>
+          <img class="" src="#" width="292" height="292">
+          <h3>Summer cactus & succulents</h3>
+          <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+          <a href="#">Find More</a>
+        </li>
+        <li>
+          <img class="" src="#" width="287" height="287">
+          <h3>Styling Trends & much more</h3>
+          <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+          <a href="#">Find More</a>
+        </li>
+      </ul>
+    </section>
+    <section class="blog">
+      <h2>Our Blog Posts</h2>
+      <ul>
+        <li>
+          <img class="" src="#" width="268" height="195">
+          <time datetime="2024-09-12">September 12</time>I<span>Read in 6 minutes</span>
+          <h3>Cactus & Succulent Care Tips</h3>
+          <p>Cacti are succulents are easy care plants for any home or patio.</p>
+          <a href="#">Read More</a>
+        </li>
+        <li>
+          <img class="" width="268" height="195">
+          <time datetime="2024-09-13">September 13</time>I<span>Read in 2 minutes</span>
+          <h3>Top 10 Succulents for Your Home</h3>
+          <p>Best in hanging baskets. Prefers medium to high light.</p>
+          <a href="#">Read More</a>
+        </li>
+        <li>
+          <img class="" width="268" height="195">
+          <time datetime="2024-09-15">September 15</time>I<span>Read in 3 minutes</span>
+          <h3>Cacti & Succulent Care Tips</h3>
+          <p>Cacti and succulents thrive in containers and because most are..</p>
+          <a href="#">Read More</a>
+        </li>
+        <li>
+          <img class="" width="268" height="195">
+          <time datetime="2024-09-15">September 15</time>I<span>Read in 2 minutes</span>
+          <h3>Best Houseplants Room by Room</h3>
+          <p>The benefits of houseplants are endless. In addition to..</p>
+          <a href="#">Read More</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <section class="about">
+      <h2>About Company</h2>
+      <ul>
+        <li>
+          <h3>Garden Care</h3>
+          <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+        </li>
+        <li>
+          <h3>Plant Renovation</h3>
+          <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+        </li>
+        <li>
+          <h3>Watering Graden</h3>
+          <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="subscribe">
+      <h2>Would you like to join newsletters?</h2>
+      <form action="/" method="post">
+        <label for="subscribe-email"></label>
+        <input type="email" id="subscribe-email" name="email" placeholder="enter your email address..." required>
+        <button type="submit">Join</button>
+      </form>
+      <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!</p>
+    </section>
+    <section class="contacts">
+      <h2>Contacts</h2>
+      <a href="#">
+        <img class="logo" scr="#" width="150" height="34" alt="Два листика на зеленом фоне">
+        <span>Company logo</span>
+      </a>
+      <ul>
+        <li>
+          <address><a href="#">70 West Buckingham Ave. Farmingdale, NY 11735</a></address>
+        </li>
+        <li><a href="mailto:contact@greenshop.com">contact@greenshop.com</a></li>
+        <li><a href="tel:+8801911717490">+88 01911 717 490</a></li>
+      </ul>
+    </section>
+    <section class="navigation">
+      <h2>Navigation</h2>
+      <ul>
+        <li>
+          <h3>My Account</h3>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Our stores</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Specials</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Help & Guide</h3>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">How to Buy</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">Product Policy</a></li>
+            <li><a href="#">How to Return</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">House Plants</a></li>
+            <li><a href="#">Potter Plants</a></li>
+            <li><a href="#">Seeds</a></li>
+            <li><a href="#">Small Plants</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="social">
+      <h2>Social Media</h2>
+      <ul>
+        <li><a href="#"><span>Facebook</span></a></li>
+        <li><a href="#"><span>Intagramm</span></a></li>
+        <li><a href="#"><span>Twitter</span></a></li>
+        <li><a href="#"><span>In</span></a></li>
+        <li><a href="#"><span>Youtube</span></a></li>
+      </ul>
+    </section>
+    <section class="payment">
+      <h2>We accept</h2>
+      <ul>
+        <li><span>PayPal</span></li>
+        <li><span>MasterCart</span></li>
+        <li><span>Visa</span></li>
+        <li><span>American Express</span></li>
+      </ul>
+    </section>
+    <section class="copyrigh">
+      <h2>copyrigh</h2>
+      <p>© 2021 GreenShop. All Rights Reserved.</p>
+    </section>
+  </footer>
+</body>
+
 </html>
