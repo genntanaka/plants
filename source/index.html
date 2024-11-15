@@ -18,22 +18,22 @@
       </a>
       <ul class="main-nav__list main-menu">
         <li class="main-menu__item">
-          <a class="main-menu__link main-menu__link--current" href="#">Home</a>
+          <a class="main-menu__link main-menu__link--current link" href="#">Home</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#">Shop</a>
+          <a class="main-menu__link link" href="#">Shop</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#">Plant Care</a>
+          <a class="main-menu__link link" href="#">Plant Care</a>
         </li>
         <li class="main-menu__item">
-          <a class="main-menu__link" href="#">Blogs</a>
+          <a class="main-menu__link link" href="#">Blogs</a>
         </li>
       </ul>
       <ul class="main-nav__list user-nav">
-        <li class="user-nav__item"><a class="user-nav__link" href="#"><span>search</span></a></li>
-        <li class="user-nav__item"><a class="user-nav__link" href="#"><span>cart</span><span>6</span></a></li>
-        <li class="user-nav__item"><a class="user-nav__link" href="#">Login</a></li>
+        <li class="user-nav__item"><a class="user-nav__link link" href="#"><span class="visually-hidden">search</span></a></li>
+        <li class="user-nav__item"><a class="user-nav__link link" href="#"><span class="visually-hidden">cart</span><span>6</span></a></li>
+        <li class="user-nav__item"><a class="user-nav__link link" href="#">Login</a></li>
       </ul>
     </nav>
   </header>
@@ -41,7 +41,7 @@
   <main class="main">
     <section class="hero">
       <p class="hero__subtitle">Welcome to GreenShop</p>
-      <h1 class="hero__title">Let’s Make a Better Planet</h1>
+      <h1 class="hero__title">Let’s Make a<br>Better <span class="color-accient">Planet</span></h1>
       <p class="hero__text">We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
       <a class="hero__link link" href="#">SHOP NOW</a>
       <picture>
@@ -56,28 +56,28 @@
         <fieldset class="filter__item">
           <legend class="filter__item-title">Categories</legend>
           <ul class="filter__item-list">
-            <li class="filter__item-point"><a href="#">House Plants</a></li>
-            <li class="filter__item-point"><a href="#">Potter Plants</a></li>
-            <li class="filter__item-point"><a href="#">Seeds</a></li>
-            <li class="filter__item-point"><a href="#">Small Plants</a></li>
-            <li class="filter__item-point"><a href="#">Big Plants</a></li>
-            <li class="filter__item-point"><a href="#">Succulents</a></li>
-            <li class="filter__item-point"><a href="#">Trerrariums</a></li>
-            <li class="filter__item-point"><a href="#">Gardening</a></li>
-            <li class="filter__item-point"><a href="#">Accessories</a></li>
+            <li class="filter__item-point"><a class="filter__item-link filter__item-link--active link" href="#">House Plants<span>(33)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Potter Plants<span>(12)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Seeds<span>(65)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Small Plants<span>(39)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Big Plants<span>(23)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Succulents<span>(17)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Trerrariums<span>(19)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Gardening<span>(13)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Accessories<span>(18)</span></a></li>
           </ul>
         </fieldset>
         <fieldset class="filter__item">
           <legend class="filter__item-title">Price Range</legend>
-          <p>Price: <span>$39</span> - <span>$1230</span></p>
+          <p class="filter__item-price">Price: <span>$39</span> - <span>$1230</span></p>
           <button type="submit">Filter</button>
         </fieldset>
         <fieldset class="filter__item">
           <legend class="filter__item-title">Size</legend>
           <ul class="filter__item-list">
-            <li class="filter__item-point"><a href="#">Small</a></li>
-            <li class="filter__item-point"><a href="#">Medium</a></li>
-            <li class="filter__item-point"><a href="#">Large</a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Small<span>(119)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Medium<span>(86)</span></a></li>
+            <li class="filter__item-point"><a class="filter__item-link link" href="#">Large<span>(78)</span></a></li>
           </ul>
         </fieldset>
       </form>
@@ -98,9 +98,9 @@
     <section class="catalog">
       <h2 class="visually-hidden">Catalog</h2>
       <ul class="catalog__tag">
-        <li class="catalog__tag-item"><a href="#">All Plants</a></li>
-        <li class="catalog__tag-item"><a href="#">New Arrivals</a></li>
-        <li class="catalog__tag-item"><a href="#">Sale</a></li>
+        <li class="catalog__tag-item"><a class="catalog__tag-list link" href="#">All Plants</a></li>
+        <li class="catalog__tag-item"><a class="catalog__tag-list link" href="#">New Arrivals</a></li>
+        <li class="catalog__tag-item"><a class="catalog__tag-list link" href="#">Sale</a></li>
       </ul>
       <select class="catalog__sort" name="sort" aria-label="Сортировка">
         <option>Default sorting</option>
@@ -118,9 +118,9 @@
           <h3 class="cart__title">Barberton Daisy</h3>
           <p class="cart__price">$119.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -133,26 +133,26 @@
           <h3 class="cart__title">Angel Wing Begonia</h3>
           <p class="cart__price">$169.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
           <a class="cart__link-img" href="#" tabindex="-1">
-            <p class="cart__bage">13% OFF</p>
             <picture>
               <source type="image/webp" width="250" height="250" srcset="images/plant-3@1x.webp 1x, images/plant-3@2x.webp 2x">
               <img class="cart__img" src="images/plant-3@1x.png" srcset="images/plant-3@2x.png 2x" width="250" height="250" alt="African Violet">
             </picture>
           </a>
+          <p class="cart__bage">13% OFF</p>
           <h3 class="cart__title">African Violet</h3>
           <p class="cart__price">$199.00</p>
           <p class="cart__price-old"><s>$229.00</s></p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -165,9 +165,9 @@
           <h3 class="cart__title">Beach Spider Lily</h3>
           <p class="cart__price">$129.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -180,9 +180,9 @@
           <h3 class="cart__title">Blushing Bromeliad</h3>
           <p class="cart__price">$139.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -195,9 +195,9 @@
           <h3 class="cart__title">Aluminum Plant</h3>
           <p class="cart__price">$179.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -210,9 +210,9 @@
           <h3 class="cart__title">Bird's Nest Fern</h3>
           <p class="cart__price">$99.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -225,9 +225,9 @@
           <h3 class="cart__title">Broadleaf Lady Palm</h3>
           <p class="cart__price">$59.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
         <li class="catalog__item cart">
@@ -240,9 +240,9 @@
           <h3 class="cart__title">Chinese Evergreen</h3>
           <p class="cart__price">$39.00</p>
           <ul class="cart__action">
-            <li><a href="#"><span>add to cart</span></a></li>
-            <li><a href="#"><span>add to fav</span></a></li>
-            <li><a href="#"><span>search</span></a></li>
+            <li><a class="link" href="#"><span>add to cart</span></a></li>
+            <li><a class="link" href="#"><span>add to fav</span></a></li>
+            <li><a class="link" href="#"><span>search</span></a></li>
           </ul>
         </li>
       </ul>
@@ -276,7 +276,7 @@
           </picture>
           <h3 class="promo__title">Summer cactus & succulents</h3>
           <p class="promo__text">We are an online plant shop offering a wide range of cheap and trendy plants</p>
-          <a class="promo__link" href="#">Find More</a>
+          <a class="promo__link link" href="#">Find More</a>
         </li>
         <li class="promo__item">
           <picture>
@@ -285,7 +285,7 @@
           </picture>
           <h3 class="promo__title">Styling Trends & much more</h3>
           <p class="promo__text">We are an online plant shop offering a wide range of cheap and trendy plants</p>
-          <a class="promo__link" href="#">Find More</a>
+          <a class="promo__link link" href="#">Find More</a>
         </li>
       </ul>
     </section>
@@ -299,40 +299,40 @@
             <source type="image/webp" width="268" height="195" srcset="images/blog-1@1x.webp 1x, images/blog-1@2x.webp 2x">
             <img class="blog__img" src="images/blog-1@1x.jpg" srcset="images/blog-1@2x.jpg 2x" width="268" height="195" alt="blog 1">
           </picture>
-          <time datetime="2024-09-12">September 12</time>I<span>Read in 6 minutes</span>
+          <div class="blog__item-info"><time datetime="2024-09-12">September 12</time> I <span>Read in 6 minutes</span></div>
           <h3 class="blog__name">Cactus & Succulent Care Tips</h3>
           <p class="blog__desc">Cacti are succulents are easy care plants for any home or patio.</p>
-          <a class="blog__link" href="#">Read More</a>
+          <a class="blog__link link" href="#">Read More</a>
         </li>
         <li class="blog__item">
           <picture>
             <source type="image/webp" width="268" height="195" srcset="images/blog-2@1x.webp 1x, images/blog-2@2x.webp 2x">
             <img class="blog__img" src="images/blog-2@1x.jpg" srcset="images/blog-2@2x.jpg 2x" width="268" height="195" alt="blog 2">
           </picture>
-          <time datetime="2024-09-13">September 13</time>I<span>Read in 2 minutes</span>
+          <div class="blog__item-info"><time datetime="2024-09-13">September 13</time> I <span>Read in 2 minutes</span></div>
           <h3 class="blog__name">Top 10 Succulents for Your Home</h3>
           <p class="blog__desc">Best in hanging baskets. Prefers medium to high light.</p>
-          <a class="blog__link" href="#">Read More</a>
+          <a class="blog__link link" href="#">Read More</a>
         </li>
         <li class="blog__item">
           <picture>
             <source type="image/webp" width="268" height="195" srcset="images/blog-3@1x.webp 1x, images/blog-3@2x.webp 2x">
             <img class="blog__img" src="images/blog-3@1x.jpg" srcset="images/blog-3@2x.jpg 2x" width="268" height="195" alt="blog 3">
           </picture>
-          <time datetime="2024-09-15">September 15</time>I<span>Read in 3 minutes</span>
+          <div class="blog__item-info"><time datetime="2024-09-15">September 15</time> I <span>Read in 3 minutes</span></div>
           <h3 class="blog__name">Cacti & Succulent Care Tips</h3>
           <p class="blog__desc">Cacti and succulents thrive in containers and because most are..</p>
-          <a class="blog__link" href="#">Read More</a>
+          <a class="blog__link link" href="#">Read More</a>
         </li>
         <li class="blog__item">
           <picture>
             <source type="image/webp" width="268" height="195" srcset="images/blog-4@1x.webp 1x, images/blog-4@2x.webp 2x">
             <img class="blog__img" src="images/blog-4@1x.jpg" srcset="images/blog-4@2x.jpg 2x" width="268" height="195" alt="blog 4">
           </picture>
-          <time datetime="2024-09-15">September 15</time>I<span>Read in 2 minutes</span>
+          <div class="blog__item-info"><time datetime="2024-09-15">September 15</time> I <span>Read in 2 minutes</span></div>
           <h3 class="blog__name">Best Houseplants Room by Room</h3>
           <p class="blog__desc">The benefits of houseplants are endless. In addition to..</p>
-          <a class="blog__link" href="#">Read More</a>
+          <a class="blog__link link" href="#">Read More</a>
         </li>
       </ul>
     </section>
@@ -369,14 +369,14 @@
       <h2 class="visually-hidden">Contacts</h2>
       <a href="#">
         <img class="logo" src="images/logo.svg" width="150" height="34" alt="Два листика на зеленом фоне">
-        <span>Company logo</span>
+        <span class="visually-hidden">Company logo</span>
       </a>
       <ul class="contacts__list">
         <li class="contacts__item">
-          <address><a href="#">70 West Buckingham Ave. Farmingdale, NY 11735</a></address>
+          <address><a class="contacts__link link" href="#">70 West Buckingham Ave.<br>Farmingdale, NY 11735</a></address>
         </li>
-        <li class="contacts__item"><a href="mailto:contact@greenshop.com">contact@greenshop.com</a></li>
-        <li class="contacts__item"><a href="tel:+8801911717490">+88 01911 717 490</a></li>
+        <li class="contacts__item"><a class="contacts__link link" href="mailto:contact@greenshop.com">contact@greenshop.com</a></li>
+        <li class="contacts__item"><a class="contacts__link link" href="tel:+8801911717490">+88 01911 717 490</a></li>
       </ul>
     </section>
     <section class="navigation">
@@ -385,33 +385,33 @@
         <li class="navigation__column">
           <h3 class="navigation__title">My Account</h3>
           <ul class="navigation__item">
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Our stores</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Specials</a></li>
+            <li><a class="navigation__link link" href="#">My Account</a></li>
+            <li><a class="navigation__link link" href="#">Our stores</a></li>
+            <li><a class="navigation__link link" href="#">Contact us</a></li>
+            <li><a class="navigation__link link" href="#">Career</a></li>
+            <li><a class="navigation__link link" href="#">Specials</a></li>
           </ul>
         </li>
 
         <li class="navigation__column">
           <h3 class="navigation__title">Help & Guide</h3>
           <ul class="navigation__item">
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">How to Buy</a></li>
-            <li><a href="#">Shipping & Delivery</a></li>
-            <li><a href="#">Product Policy</a></li>
-            <li><a href="#">How to Return</a></li>
+            <li><a class="navigation__link link" href="#">Help Center</a></li>
+            <li><a class="navigation__link link" href="#">How to Buy</a></li>
+            <li><a class="navigation__link link" href="#">Shipping & Delivery</a></li>
+            <li><a class="navigation__link link" href="#">Product Policy</a></li>
+            <li><a class="navigation__link link" href="#">How to Return</a></li>
           </ul>
         </li>
 
         <li class="navigation__column">
           <h3 class="navigation__title">Categories</h3>
           <ul class="navigation__item">
-            <li><a href="#">House Plants</a></li>
-            <li><a href="#">Potter Plants</a></li>
-            <li><a href="#">Seeds</a></li>
-            <li><a href="#">Small Plants</a></li>
-            <li><a href="#">Accessories</a></li>
+            <li><a class="navigation__link link" href="#">House Plants</a></li>
+            <li><a class="navigation__link link" href="#">Potter Plants</a></li>
+            <li><a class="navigation__link link" href="#">Seeds</a></li>
+            <li><a class="navigation__link link" href="#">Small Plants</a></li>
+            <li><a class="navigation__link link" href="#">Accessories</a></li>
           </ul>
         </li>
       </ul>
@@ -434,7 +434,7 @@
       </picture>
     </section>
     <section class="copyrigh">
-      <h2>copyrigh</h2>
+      <h2 class="visually-hidden">copyrigh</h2>
       <p>© 2021 GreenShop. All Rights Reserved.</p>
     </section>
   </footer>

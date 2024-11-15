@@ -1,7 +1,57 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
+.page {
+  height: 100%;
+}
 
 .page__body {
   font-family: $primary-font;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  color: var(--text-basic-color, inherit);
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 280px;
+
+  @media (min-width: $width-tablet) {
+    max-width: 708px;
+  }
+
+  @media (min-width: $width-desctop) {
+    margin: 0 auto;
+    max-width: 1220px;
+  }
+}
+
+.link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.color-accient {
+  color: var(--text-accent-color, inherit) !important;
+}
+
+.copyrigh {
+  color: var(--text-title-color, inherit);
+  text-align: center;
 }

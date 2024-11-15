@@ -1,0 +1,17 @@
+.about__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about__title {
+  font-size: 17px;
+  line-height: 0.9;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-title-color, inherit);
+}
+
+.about__text {
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+.filter__item {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter__item-price {
+  font-size: 15px;
+}
+
+.filter__item-price span {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-accent-color, inherit);
+}
+
+.filter__item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.13;
+  color: var(--text-title-color, inherit);
+  padding: 0;
+}
+
+.filter__item-link {
+  font-size: 15px;
+  line-height: 2.6;
+  color: var(--text-title-color, inherit);
+}

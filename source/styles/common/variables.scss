@@ -1,2 +1,15 @@
 /* здесь используйте глобальные переменные */
 $primary-font: "Quicksand", "Arial", sans-serif;
+
+$width-mobile: 320px;
+$width-tablet: 768px;
+$width-desctop: 1280px;
+
+:root {
+  --text-basic-color: #727272;
+  --text-title-color: #3d3d3d;
+  --text-accent-color: #46a358;
+
+  --block-background: #fbfbfb;
+  --accent-background: rgba(70, 163, 88, 0.1);
+}

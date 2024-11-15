@@ -1,0 +1,17 @@
+.catalog__tag {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog__tag-list {
+  font-size: 15px;
+  line-height: 1.06;
+  color: var(--text-title-color, inherit);
+}
+
+.catalog__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

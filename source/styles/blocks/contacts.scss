@@ -1,0 +1,17 @@
+.contacts {
+  background-color: var(--accent-background, inherit);
+}
+
+.contacts__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__item address {
+  font-style: normal;
+}
+
+.contacts__link {
+  color: var(--text-title-color, inherit);
+}
