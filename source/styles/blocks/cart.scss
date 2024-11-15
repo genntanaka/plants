@@ -1,0 +1,33 @@
+.cart__title {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  color: var(--text-title-color, inherit);
+}
+
+.cart__price {
+  font-size: 18px;
+  line-height: 0.88;
+  font-weight: 700;
+  color: var(--text-accent-color, inherit);
+  margin: 0;
+}
+
+.cart__price-old {
+  color: #a5a5a5;
+}
+
+.cart__action {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.cart__bage {
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+  background-color: var(--text-accent-color, inherit);
+  margin: 0;
+}
