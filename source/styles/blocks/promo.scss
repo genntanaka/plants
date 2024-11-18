@@ -1,8 +1,18 @@
+.promo{
+  margin-bottom: 108px;
+}
+
 .promo__list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.promo__item{
+  background-color: var(--basic-background);
 }
 
 .promo__title {

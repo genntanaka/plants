@@ -27,15 +27,15 @@
 
 .container {
   margin: 0 auto;
-  max-width: 280px;
+  // max-width: 280px;max-widthmax-widthmax-widthmax-width
 
   @media (min-width: $width-tablet) {
-    max-width: 708px;
+    // max-width: 708px;max-widthmax-widthmax-widthmax-width
   }
 
   @media (min-width: $width-desctop) {
     margin: 0 auto;
-    max-width: 1220px;
+    max-width: 1200px;
   }
 }
 
@@ -54,4 +54,6 @@
 .copyrigh {
   color: var(--text-title-color, inherit);
   text-align: center;
+  padding-top: 7px;
+  padding-bottom: 13px;
 }
